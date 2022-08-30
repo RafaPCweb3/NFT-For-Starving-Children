@@ -81,7 +81,7 @@ pub contract interface FungibleToken {
     ///
     pub resource interface Provider {
 
-        /// withdraw subtracts tokens from the owner's Vault    
+        /// withdraw subtracts tokens from the owner's Vault
         /// and returns a Vault with the removed tokens.
         ///
         /// The function's access level is public, but this is not a problem
